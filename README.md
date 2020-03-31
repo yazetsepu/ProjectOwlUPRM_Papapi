@@ -25,7 +25,7 @@ First, setup the Raspberry Pi with Raspbian. Use [this link](https://projects.ra
 
 After setting up the Raspberry Pi, go and install raspap-webgui. This is used to turn the Raspberry Pi into a Wifi access point so that the PapaDuck can connect and communicate with the Pi. The [following link](https://github.com/billz/raspap-webgui) shows how to install this service onto your Raspberry Pi. 
 
-Next, we are going to need to install Node.js on the Raspberry Pi. You can follow this (Instructables post)[https://www.instructables.com/id/Install-Nodejs-and-Npm-on-Raspberry-Pi/] to install it. 
+Next, we are going to need to install Node.js on the Raspberry Pi. You can follow this [Instructables post](https://www.instructables.com/id/Install-Nodejs-and-Npm-on-Raspberry-Pi/) to install it. 
 
 Afterwards, clone this repository to your Raspberry Pi in whichever directory you want. Then, run the following command on the cloned directory:
 
