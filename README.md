@@ -35,7 +35,7 @@ npm install
 
 Finally, run `node index.js` on the aformentioned directory in order to start the MQTT server. This is the server that the PapaDuck will connect to in order to send data to the Pi.
 
-The next thing is to flash the Papapi firmware found in this repository onto the Duck. First, you are going to need to set up your environment to flash this software. This can be found on Project Owl's [Documentation page] (https://www.project-owl.com/documentation). We recommend having a working Duck before flashing the Papapi firmware. Once you setup your environment, the next thing is to make sure that the firmware configuration works for your setup.
+The next thing is to flash the Papapi firmware found in this repository onto the Duck. First, you are going to need to set up your environment to flash this software. This can be found on Project Owl's [Documentation page](https://www.project-owl.com/documentation). We recommend having a working Duck before flashing the Papapi firmware. Once you setup your environment, the next thing is to make sure that the firmware configuration works for your setup.
 
 If you changed the raspap-webgui configuration settings for SSID and/or password, change the SSID and password variables accordingly in the PapaPiDuck.ino file. Next, you might need to assign a different papapiServer address if you changed the default IP address of the Raspberry Pi (e.i 10.3.141.1).
 
